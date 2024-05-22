@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Tecnópolos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-with-background">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Quiz sobre Tecnópolos</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>Pergunta 1: O que são tecnópolos?</p>
+                <input type="radio" name="q1" value="a">Áreas geográficas com alta concentração de tecnologia.<br>
+                <input type="radio" name="q1" value="b">Parques de diversão.<br>
+                <input type="radio" name="q1" value="c">Bairros residenciais.<br>
+            </div>
+            <div class="question">
+                <p>Pergunta 2: Qual é o papel dos tecnópolos no desenvolvimento econômico?</p>
+                <input type="radio" name="q2" value="a">Reduzir a competitividade.<br>
+                <input type="radio" name="q2" value="b">Impulsionar a inovação e criar empregos qualificados.<br>
+                <input type="radio" name="q2" value="c">Aumentar os custos de produção.<br>
+            </div>
+            <div class="question">
+                <p>Pergunta 3: Qual é a principal característica dos recursos humanos em tecnópolos?</p>
+                <input type="radio" name="q3" value="a">São pouco qualificados.<br>
+                <input type="radio" name="q3" value="b">São altamente especializados em tecnologia.<br>
+                <input type="radio" name="q3" value="c">Não possuem experiência profissional.<br>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="quiz-results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
